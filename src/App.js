@@ -7,8 +7,10 @@ import './App.css';
 
 class App extends Component {
 
-  constructor() {
-    super()
+  //good practice to always include props in the constructor and super
+  //if no props are being used you can just use state={}
+  constructor(props) {
+    super(props)
 
     this.state = {
       monsters: [],
@@ -26,6 +28,15 @@ class App extends Component {
   handleChange = (e) => {
     this.setState({ searchField: e.target.value })
   }
+
+  //if you are ever updating state and it requires the previous state to update the current state use the below format
+  //this makes sure that you are actually affecting the previous state because due the function being astnc, other properties might be changing the state 
+  /*----------  Examle function  ----------*/
+  handleClick = () => {
+    this.setState((prevState, prevProps) =>
+      ({ meaningOfLife: prevState.meaningOfLife + 1 }))
+  }
+
 
   render() {
 
