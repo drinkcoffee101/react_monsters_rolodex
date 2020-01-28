@@ -1,5 +1,5 @@
 # Monsters Rolodex
-This is the 1st app built follwing the ['Complete React Developer in 2020'](https://www.youtube.com/watch?v=7CqJlxBYj-M) course held through Udemy 
+This is the 1st app built follwing the ['Complete React Developer in 2020'](https://www.youtube.com/watch?v=7CqJlxBYj-M) course held through Udemy. The app simply filters users by name. 
 
 ### Technologies Used
 #### Back-end
