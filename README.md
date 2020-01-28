@@ -16,6 +16,4 @@ This is the 1st app built follwing the ['Complete React Developer in 2020'](http
 ### Snapshots
 
 ![](monsters_react_demo.gif)
-=======
-# react_monsters_rolodex
 
